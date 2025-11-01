@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "LocaPlace",
+    "slug": "locaplace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#101828",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.example.locaplace"
+    },
+    "plugins": [
+      "expo-contacts",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}
